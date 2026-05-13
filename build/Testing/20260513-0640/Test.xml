@@ -25,20 +25,26 @@
 	ProcessorClockFrequency="2801.000000"
 	>
 	<Testing>
-		<StartDateTime>May 13 16:46 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
-		<StartTestTime>1778658370</StartTestTime>
+		<StartDateTime>May 13 16:49 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
+		<StartTestTime>1778658586</StartTestTime>
 		<TestList>
-			<Test>./GildedRoseTest.AgedBrieIncreaseDoubleAfterSellIn</Test>
+			<Test>./GildedRoseTest.AgedBrieQualityMax51</Test>
 		</TestList>
-		<Test Status="passed">
-			<Name>GildedRoseTest.AgedBrieIncreaseDoubleAfterSellIn</Name>
+		<Test Status="failed">
+			<Name>GildedRoseTest.AgedBrieQualityMax51</Name>
 			<Path>.</Path>
-			<FullName>./GildedRoseTest.AgedBrieIncreaseDoubleAfterSellIn</FullName>
-			<FullCommandLine>C:\DEV_BR\GildedRose_06\build\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.AgedBrieIncreaseDoubleAfterSellIn" "--gtest_also_run_disabled_tests"</FullCommandLine>
-			<StartTestTime>1778658370.606322</StartTestTime>
+			<FullName>./GildedRoseTest.AgedBrieQualityMax51</FullName>
+			<FullCommandLine>C:\DEV_BR\GildedRose_06\build\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.AgedBrieQualityMax51" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<StartTestTime>1778658586.413414</StartTestTime>
 			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.017944</Value>
+					<Value>0.020811</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -47,18 +53,18 @@
 					<Value>Completed</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="text/string" name="Command Line">
-					<Value>C:\DEV_BR\GildedRose_06\build\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.AgedBrieIncreaseDoubleAfterSellIn" "--gtest_also_run_disabled_tests"</Value>
+					<Value>C:\DEV_BR\GildedRose_06\build\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.AgedBrieQualityMax51" "--gtest_also_run_disabled_tests"</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="text/string" name="Environment">
 					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
 				</NamedMeasurement>
 				<Measurement>
-					<Value encoding="base64" compression="gzip">eJydUD1rwzAQ3fUrbowHm3TpEMjg1MGEQhrktotljGyfjUCWgiSnf7+yHdIkUAi56T7evXv36KCUUB30XKhFAK3RPbytWLL9LjeUpUI22FBtsVy+smrwJSsbPFrWad1JdGhdaE19VbKpHLNy5Izqmuy1wxWkEwQ+/QRaIR0aWMPfgbEfxR02GyNwp2qD3GKih0pi3HpwhlLuFMnXlyiAnsW/gJtYR/Hn3A7CYUTy8BIFpFJXXM5zVCdhtOpReSy6cDjega85b1WSHOjXHqYonvhg3oSP9ye2YbGE3gaPSp3h4LTjMiCPueGQm7DRP3de/+cxGK6i2zv+w0OcZdtk9GfGRuQXqk/LsA==</Value>
+					<Value encoding="base64" compression="gzip">eJyVUU1vwjAMvedX+AjSqMqBbarEAUZBkza0FbYdWlSF1pRIadI1KbB/v/RDjCIhdT7F9svz87NXCMFEAilloteHXS5TeHKCmfsZTr1gwXiMsScVhvZ9sC1MGoQxZipIpEw4alR6oPLoIg2qtHyFJacVRWQpNTqwqCCwNh3YMa4xhzH8DSjr1iTBeJozfC8oZ/rnlZ5GQ+KPz7EBr9E7BF0RlXqbtyqYRov4g3NsYMHllvK6j+LAcilSFAaLelBkV+BLzrYw4oP3sYQqNp1E3/IwyrKgsumKxNSdh0cH5pTxIkfinjKMNMaA3zUtyB3oPSqEA+UFKocAmDkAZulU+fbGaoCkFPm1Z9EemHJgZBOjHuaT5xd31lE99GxIVb+rOzUctNSU90m3A2ik+SCWR9E+762zQk6F1Z5jlnqbrFb1UnaFVVZ71ZrhDjhTpZVb5PLo/NsNQgxR82PtrtbkF8N1CdI=</Value>
 				</Measurement>
 			</Results>
 		</Test>
-		<EndDateTime>May 13 16:46 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
-		<EndTestTime>1778658370</EndTestTime>
+		<EndDateTime>May 13 16:49 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
+		<EndTestTime>1778658586</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

@@ -57,3 +57,23 @@ TEST(GildedRoseTest, AgedBrieIncreaseDoubleAfterSellIn) {
   EXPECT_EQ(-1, items[0].sellIn);
   EXPECT_EQ(2, items[0].quality);
 }
+
+// 6-1. Aged Brie: 품질 최대치 50 제한
+TEST(GildedRoseTest, AgedBrieQualityMax50) {
+  std::vector<Item> items = {Item("Aged Brie", 0, 50)};
+  GildedRose app(items);
+  app.updateQuality();
+
+  EXPECT_EQ(-1, items[0].sellIn);
+  EXPECT_EQ(50, items[0].quality);
+}
+
+// 6-2. Aged Brie: 품질 최대치 50 제한 (일부러 틀리는 테스트작성)
+TEST(GildedRoseTest, AgedBrieQualityMax51) {
+  std::vector<Item> items = {Item("Aged Brie", 0, 50)};
+  GildedRose app(items);
+  app.updateQuality();
+
+  EXPECT_EQ(-1, items[0].sellIn);
+  EXPECT_EQ(51, items[0].quality);
+}

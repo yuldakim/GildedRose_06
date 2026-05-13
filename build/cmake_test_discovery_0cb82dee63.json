@@ -1,10 +1,10 @@
 {
-  "tests": 5,
+  "tests": 7,
   "name": "AllTests",
   "testsuites": [
     {
       "name": "GildedRoseTest",
-      "tests": 5,
+      "tests": 7,
       "testsuite": [
         {
           "name": "NonameQualityZeroNoDecrease",
@@ -30,6 +30,16 @@
           "name": "AgedBrieIncreaseDoubleAfterSellIn",
           "file": "C:\\DEV_BR\\GildedRose_06\\cpp\\test\\GildedRoseTest.cpp",
           "line": 52
+        },
+        {
+          "name": "AgedBrieQualityMax50",
+          "file": "C:\\DEV_BR\\GildedRose_06\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 62
+        },
+        {
+          "name": "AgedBrieQualityMax51",
+          "file": "C:\\DEV_BR\\GildedRose_06\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 72
         }
       ]
     }
