@@ -2,4 +2,6 @@ add_test([=[GildedRoseTest.Foo]=]  C:/DEV_BR/GildedRose_06/build/gilded_rose_tes
 set_tests_properties([=[GildedRoseTest.Foo]=]  PROPERTIES DEF_SOURCE_LINE [==[C:\DEV_BR\GildedRose_06\cpp\test\GildedRoseTest.cpp:4]==] WORKING_DIRECTORY C:/DEV_BR/GildedRose_06/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
 add_test([=[GildedRoseTest.NonameQualityZeroNoDecrease]=]  C:/DEV_BR/GildedRose_06/build/gilded_rose_test.exe [==[--gtest_filter=GildedRoseTest.NonameQualityZeroNoDecrease]==] --gtest_also_run_disabled_tests)
 set_tests_properties([=[GildedRoseTest.NonameQualityZeroNoDecrease]=]  PROPERTIES DEF_SOURCE_LINE [==[C:\DEV_BR\GildedRose_06\cpp\test\GildedRoseTest.cpp:12]==] WORKING_DIRECTORY C:/DEV_BR/GildedRose_06/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-set(  gilded_rose_test_TESTS GildedRoseTest.Foo GildedRoseTest.NonameQualityZeroNoDecrease)
+add_test([=[GildedRoseTest.NonameQualityDecreaseDoubleAfterSellIn]=]  C:/DEV_BR/GildedRose_06/build/gilded_rose_test.exe [==[--gtest_filter=GildedRoseTest.NonameQualityDecreaseDoubleAfterSellIn]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[GildedRoseTest.NonameQualityDecreaseDoubleAfterSellIn]=]  PROPERTIES DEF_SOURCE_LINE [==[C:\DEV_BR\GildedRose_06\cpp\test\GildedRoseTest.cpp:22]==] WORKING_DIRECTORY C:/DEV_BR/GildedRose_06/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  gilded_rose_test_TESTS GildedRoseTest.Foo GildedRoseTest.NonameQualityZeroNoDecrease GildedRoseTest.NonameQualityDecreaseDoubleAfterSellIn)

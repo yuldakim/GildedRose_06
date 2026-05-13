@@ -1,10 +1,10 @@
 {
-  "tests": 2,
+  "tests": 3,
   "name": "AllTests",
   "testsuites": [
     {
       "name": "GildedRoseTest",
-      "tests": 2,
+      "tests": 3,
       "testsuite": [
         {
           "name": "Foo",
@@ -15,6 +15,11 @@
           "name": "NonameQualityZeroNoDecrease",
           "file": "C:\\DEV_BR\\GildedRose_06\\cpp\\test\\GildedRoseTest.cpp",
           "line": 12
+        },
+        {
+          "name": "NonameQualityDecreaseDoubleAfterSellIn",
+          "file": "C:\\DEV_BR\\GildedRose_06\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 22
         }
       ]
     }

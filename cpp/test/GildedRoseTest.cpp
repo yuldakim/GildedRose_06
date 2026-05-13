@@ -17,3 +17,13 @@ TEST(GildedRoseTest, NonameQualityZeroNoDecrease) {
   EXPECT_EQ(-1, items[0].sellIn);
   EXPECT_EQ(0, items[0].quality);
 }
+
+// 2. 일반 아이템: 유통기한 지나면 품질 2배 감소 (-2)
+TEST(GildedRoseTest, NonameQualityDecreaseDoubleAfterSellIn) {
+  std::vector<Item> items = {Item("noname", 0, 5)};
+  GildedRose app(items);
+  app.updateQuality();
+
+  EXPECT_EQ(-1, items[0].sellIn);
+  EXPECT_EQ(3, items[0].quality);
+}
