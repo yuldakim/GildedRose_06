@@ -37,14 +37,14 @@
           "line": 62
         },
         {
-          "name": "AgedBrieQualityMax51",
+          "name": "BackstagePassIncreaseNormalBefore10Days",
           "file": "C:\\DEV_BR\\GildedRose_06\\cpp\\test\\GildedRoseTest.cpp",
           "line": 72
         },
         {
-          "name": "BackstagePassIncreaseNormalBefore10Days",
+          "name": "BackstagePassDropsToZeroAfterConcert",
           "file": "C:\\DEV_BR\\GildedRose_06\\cpp\\test\\GildedRoseTest.cpp",
-          "line": 82
+          "line": 83
         }
       ]
     }

@@ -6,4 +6,5 @@ GildedRoseTest.AgedBrieIncreaseDoubleAfterSellIn 1 0.0179443
 GildedRoseTest.AgedBrieQualityMax50 1 0.019973
 GildedRoseTest.AgedBrieQualityMax51 0 0
 GildedRoseTest.BackstagePassIncreaseNormalBefore10Days 1 0.0368926
+GildedRoseTest.BackstagePassDropsToZeroAfterConcert 1 0.0183386
 ---

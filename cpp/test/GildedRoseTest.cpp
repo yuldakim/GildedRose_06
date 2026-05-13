@@ -68,16 +68,6 @@ TEST(GildedRoseTest, AgedBrieQualityMax50) {
   EXPECT_EQ(50, items[0].quality);
 }
 
-// 6-2. Aged Brie: 품질 최대치 50 제한 (일부러 틀리는 테스트작성)
-TEST(GildedRoseTest, AgedBrieQualityMax51) {
-  std::vector<Item> items = {Item("Aged Brie", 0, 50)};
-  GildedRose app(items);
-  app.updateQuality();
-
-  EXPECT_EQ(-1, items[0].sellIn);
-  EXPECT_EQ(51, items[0].quality);
-}
-
 // 7. Backstage Pass: 유통기한 10일 초과 시 품질 +1
 TEST(GildedRoseTest, BackstagePassIncreaseNormalBefore10Days) {
   std::vector<Item> items = {
@@ -87,4 +77,15 @@ TEST(GildedRoseTest, BackstagePassIncreaseNormalBefore10Days) {
 
   EXPECT_EQ(14, items[0].sellIn);
   EXPECT_EQ(1, items[0].quality);
+}
+
+// 8. Backstage Pass: 공연 지난 날 → 품질 = 0
+TEST(GildedRoseTest, BackstagePassNormalExpiration) {
+  std::vector<Item> items = {
+      Item("Backstage passes to a TAFKAL80ETC concert", 0, 10)};
+  GildedRose app(items);
+  app.updateQuality();
+
+  EXPECT_EQ(-1, items[0].sellIn);
+  EXPECT_EQ(0, items[0].quality);
 }
