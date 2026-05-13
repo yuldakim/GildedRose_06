@@ -1,4 +1,3 @@
-// 1. 반드시 include보다 위에 선언해야 합니다.
 #define APPROVALS_GOOGLETEST
 
 #include "ApprovalTests.hpp"
@@ -7,14 +6,18 @@
 #include <string>
 #include <vector>
 
-
 TEST(GildedRoseTest, UpdateQualityApproval) {
-  // ... 기존 테스트 코드 ...
   std::vector<Item> items = {
-      {"Normal Item", 10, 20},
-      {"Aged Brie", 2, 0},
-      {"Sulfuras, Hand of Ragnaros", 0, 80},
-      {"Backstage passes to a TAFKAL80ETC concert", 15, 20}};
+      {"noname", 0, 0},
+      {"noname", 0, 5},
+      {"Sulfuras, Hand of Ragnaros", 0, 5},
+      {"Sulfuras, Hand of Ragnaros", -1, 5},
+      {"Aged Brie", 0, 0},
+      {"Aged Brie", 0, 50},
+      {"Backstage passes to a TAFKAL80ETC concert", 15, 0},
+      {"Backstage passes to a TAFKAL80ETC concert", 0, 0},
+      {"Backstage passes to a TAFKAL80ETC concert", 0, 51}};
+
   GildedRose app(items);
   app.updateQuality();
 
@@ -23,6 +26,13 @@ TEST(GildedRoseTest, UpdateQualityApproval) {
     results.push_back(item.name + ", " + std::to_string(item.sellIn) + ", " +
                       std::to_string(item.quality));
   }
+
+  // 빈배열 케이스는 따로 분리
+  std::vector<Item> emptyItems;
+  GildedRose emptyApp(emptyItems);
+  emptyApp.updateQuality();
+  results.push_back("Empty case item count: " +
+                    std::to_string(emptyApp.items.size()));
 
   ApprovalTests::Approvals::verifyAll("ItemsAfterUpdate", results);
 }
