@@ -16,10 +16,41 @@ void decreaseQuality(Item &item) {
   }
 }
 
+// 6단계 특정 아이템 관련 동작 함수분리
+void updateAgedBrie(Item &item) {
+  increaseQuality(item);
+  if (item.sellIn < 0) {
+    increaseQuality(item);
+  }
+}
+
+void updateNormalItem(Item &item) {
+  decreaseQuality(item);
+  if (item.sellIn < 0) {
+    decreaseQuality(item);
+  }
+}
+
+void updateBackstagePass(Item &item) {
+  if (item.sellIn < 0) {
+    item.quality = 0;
+    return;
+  }
+
+  increaseQuality(item); // 기본 +1
+
+  if (item.sellIn < 10) {
+    increaseQuality(item); // 10일 이하 추가 +1
+  }
+
+  if (item.sellIn < 5) {
+    increaseQuality(item); // 5일 이하 추가 +1
+  }
+}
+
 void GildedRose::updateQuality() {
-  for (size_t i = 0; i < items.size(); i++) {
-    // 3단계 Item[i] 보다는 참조문 사용하여 한눈에 들어오게 개선
-    Item &item = items[i];
+  // 6단계 반복문 내 조건 단순화
+  for (auto &item : items) {
 
     // 1단계 Sulfuras의 퀄리티와 유효기간은 변화가 없다.
     // 그래서 Loop 최상단에서 제외한다.
@@ -32,28 +63,11 @@ void GildedRose::updateQuality() {
 
     // 5단계 아이템별 로직 완전 분리
     if (item.name == "Aged Brie") {
-      increaseQuality(item);
-      if (item.sellIn < 0) {
-        increaseQuality(item);
-      }
-    }
-
-    else if (item.name == "Backstage passes to a TAFKAL80ETC concert") {
-      if (item.sellIn < 0) {
-        item.quality = 0;
-      } else {
-        increaseQuality(item); // 기본 +1
-        if (item.sellIn < 10)
-          increaseQuality(item); // 추가 +1 (총 2)
-        if (item.sellIn < 5)
-          increaseQuality(item); // 추가 +1 (총 3)
-      }
+      updateAgedBrie(item);
+    } else if (item.name == "Backstage passes to a TAFKAL80ETC concert") {
+      updateBackstagePass(item);
     } else {
-      // 일반 아이템 (Normal Item)
-      decreaseQuality(item);
-      if (item.sellIn < 0) {
-        decreaseQuality(item);
-      }
+      updateNormalItem(item);
     }
   }
 }
