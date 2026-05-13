@@ -1,3 +1,4 @@
 GildedRoseTest.NonameQualityZeroNoDecrease 1 0.0199015
 GildedRoseTest.NonameQualityDecreaseDoubleAfterSellIn 1 0.0228002
+GildedRoseTest.SulfurasNoChangeAtSellInZero 1 0.0189912
 ---

@@ -27,3 +27,13 @@ TEST(GildedRoseTest, NonameQualityDecreaseDoubleAfterSellIn) {
   EXPECT_EQ(-1, items[0].sellIn);
   EXPECT_EQ(3, items[0].quality);
 }
+
+// 3. 전설템(Sulfuras): 유통기한 0일 때 변화 없음
+TEST(GildedRoseTest, SulfurasNoChangeAtSellInZero) {
+  std::vector<Item> items = {Item("Sulfuras, Hand of Ragnaros", 0, 5)};
+  GildedRose app(items);
+  app.updateQuality();
+
+  EXPECT_EQ(0, items[0].sellIn);
+  EXPECT_EQ(5, items[0].quality);
+}
