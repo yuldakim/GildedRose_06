@@ -1,0 +1,14 @@
+GildedRoseTest.NonameQualityZeroNoDecrease 4 0.0188992
+GildedRoseTest.NonameQualityDecreaseDoubleAfterSellIn 4 0.00629405
+GildedRoseTest.SulfurasNoChangeAtSellInZero 4 0.00599655
+GildedRoseTest.SulfurasNoChangeEvenAfterSellIn 4 0.00564678
+GildedRoseTest.AgedBrieIncreaseDoubleAfterSellIn 4 0.00560903
+GildedRoseTest.AgedBrieQualityMax50 4 0.00680865
+GildedRoseTest.AgedBrieQualityMax51 0 0
+GildedRoseTest.BackstagePassIncreaseNormalBefore10Days 4 0.005681
+GildedRoseTest.BackstagePassDropsToZeroAfterConcert 1 0.0183386
+GildedRoseTest.BackstagePassNormalExpiration 4 0.0058243
+GildedRoseTest.BackstagePassAbnormalQualityExpiration 4 0.00622978
+GildedRoseTest.ShouldBeNothingWhenNoItem 4 0.0055006
+GildedRoseTest.UpdateQualityApproval 1 0.0207357
+---

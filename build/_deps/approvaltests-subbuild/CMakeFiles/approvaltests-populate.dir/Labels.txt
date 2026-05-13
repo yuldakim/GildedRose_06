@@ -1,0 +1,14 @@
+# Target labels
+ approvaltests-populate
+# Source files and their labels
+C:/DEV_BR/GildedRose_06/build/_deps/approvaltests-subbuild/CMakeFiles/approvaltests-populate
+C:/DEV_BR/GildedRose_06/build/_deps/approvaltests-subbuild/CMakeFiles/approvaltests-populate.rule
+C:/DEV_BR/GildedRose_06/build/_deps/approvaltests-subbuild/CMakeFiles/approvaltests-populate-complete.rule
+C:/DEV_BR/GildedRose_06/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-build.rule
+C:/DEV_BR/GildedRose_06/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-configure.rule
+C:/DEV_BR/GildedRose_06/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-download.rule
+C:/DEV_BR/GildedRose_06/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-install.rule
+C:/DEV_BR/GildedRose_06/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-mkdir.rule
+C:/DEV_BR/GildedRose_06/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-patch.rule
+C:/DEV_BR/GildedRose_06/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-test.rule
+C:/DEV_BR/GildedRose_06/build/_deps/approvaltests-subbuild/approvaltests-populate-prefix/src/approvaltests-populate-stamp/approvaltests-populate-update.rule

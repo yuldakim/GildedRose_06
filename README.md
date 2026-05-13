@@ -47,3 +47,20 @@ ctest --test-dir build
 - unit test 내용 : 문서상에 나타난 동작들 확인
 
 ### unit test VS golden-master test 비교
+
+### To-Do list
+- 1~10 Test Code 작성완료 / 2026-05-13 17:31
+
+- GildedRose.cpp Refectoring 6단계 진행 완료
+ 1. Sulfuras Loop 탈출코드 추가
+ 2. 퀄리티 상승, 하락 함수분리 및 부정문 사용으로 인한 다중 if문 개선
+ 3. Items[i] 보다는 참조문 사용하여 한눈에 들어오게 개선
+ 4~5. 유통기한 감소 위치 변경 및 아이템별 로직 완전분리
+ 6. 반복문 내 조건 단순화 및 특수 아이템 관련 동작 함수분리
+
+- Approval (Golden master) Test 완료
+ 1. cmake 텍스트 파일 수정
+ 2. approval Test 신규생성 (테스트 조건 임의 입력)
+ 3. Approval Test 진행
+ 4. Golden master 파일 생성 후 Received 파일 approved 파일로 내용 옮겨적은 후 다시 테스트
+ 5. Received 파일 삭제 확인
