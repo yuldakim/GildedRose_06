@@ -26,30 +26,32 @@ void GildedRose::updateQuality() {
     if (item.name == "Sulfuras, Hand of Ragnaros")
       continue;
 
-    if (item.name == "Aged Brie" ||
-        item.name == "Backstage passes to a TAFKAL80ETC concert") {
-      // 2단계 Aged Brie와 Backstage Passes가 10초과인경우
+    // 2단계 유통기한 감소
+    // 4단계 유통기한 감소 위치 변경 퀄리티 계산 후 -> 계산 전
+    item.sellIn--;
+
+    // 5단계 아이템별 로직 완전 분리
+    if (item.name == "Aged Brie") {
       increaseQuality(item);
-      if (item.name == "Backstage passes to a TAFKAL80ETC concert") {
-        if (item.sellIn < 11)
-          increaseQuality(item); // 2단계 Backstage passes Quality +2 증가
-        if (item.sellIn < 6)
-          increaseQuality(item); // 2단계 Backstage passes Quality +3 증가
+      if (item.sellIn < 0) {
+        increaseQuality(item);
       }
-    } else {
-      decreaseQuality(item);
     }
 
-    // 2단계 유통기한 감소
-    item.sellIn = item.sellIn - 1;
-
-    // 2단계 유통기간 만료 후 처리
-    if (item.sellIn < 0) {
-      if (item.name == "Aged Brie") {
-        increaseQuality(item);
-      } else if (item.name == "Backstage passes to a TAFKAL80ETC concert") {
+    else if (item.name == "Backstage passes to a TAFKAL80ETC concert") {
+      if (item.sellIn < 0) {
         item.quality = 0;
       } else {
+        increaseQuality(item); // 기본 +1
+        if (item.sellIn < 10)
+          increaseQuality(item); // 추가 +1 (총 2)
+        if (item.sellIn < 5)
+          increaseQuality(item); // 추가 +1 (총 3)
+      }
+    } else {
+      // 일반 아이템 (Normal Item)
+      decreaseQuality(item);
+      if (item.sellIn < 0) {
         decreaseQuality(item);
       }
     }
