@@ -50,3 +50,12 @@ ctest --test-dir build
 
 ### To-Do list
 - 1~10 Test Code 작성완료 / 2026-05-13 17:31
+
+- GildedRose.cpp Refectoring 6단계 진행 완료
+ 1. Sulfuras Loop 탈출코드 추가
+ 2. 퀄리티 상승, 하락 함수분리 및 부정문 사용으로 인한 다중 if문 개선
+ 3. Items[i] 보다는 참조문 사용하여 한눈에 들어오게 개선
+ 4~5. 유통기한 감소 위치 변경 및 아이템별 로직 완전분리
+ 6. 반복문 내 조건 단순화 및 특수 아이템 관련 동작 함수분리
+
+- Golden master Test
