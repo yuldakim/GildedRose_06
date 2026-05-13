@@ -1,3 +1,30 @@
-Start testing: May 13 15:40 대한민국 표준시
+Start testing: May 13 16:21 대한민국 표준시
 ----------------------------------------------------------
-End testing: May 13 15:40 대한민국 표준시
+2/2 Testing: GildedRoseTest.NonameQualityZeroNoDecrease
+2/2 Test: GildedRoseTest.NonameQualityZeroNoDecrease
+Command: "C:/DEV_BR/GildedRose_06/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.NonameQualityZeroNoDecrease" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV_BR/GildedRose_06/build
+"GildedRoseTest.NonameQualityZeroNoDecrease" start time: May 13 16:21 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:\DEV_BR\GildedRose_06\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GildedRoseTest.NonameQualityZeroNoDecrease
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GildedRoseTest
+[ RUN      ] GildedRoseTest.NonameQualityZeroNoDecrease
+[       OK ] GildedRoseTest.NonameQualityZeroNoDecrease (0 ms)
+[----------] 1 test from GildedRoseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"GildedRoseTest.NonameQualityZeroNoDecrease" end time: May 13 16:21 대한민국 표준시
+"GildedRoseTest.NonameQualityZeroNoDecrease" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 13 16:21 대한민국 표준시

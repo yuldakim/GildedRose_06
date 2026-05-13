@@ -1,0 +1,2 @@
+GildedRoseTest.NonameQualityZeroNoDecrease 1 0.0199015
+---
