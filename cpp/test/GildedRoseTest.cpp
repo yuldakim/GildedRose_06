@@ -47,3 +47,13 @@ TEST(GildedRoseTest, SulfurasNoChangeEvenAfterSellIn) {
   EXPECT_EQ(-1, items[0].sellIn);
   EXPECT_EQ(5, items[0].quality);
 }
+
+// 5. Aged Brie: 유통기한 지나면 품질 2배 증가 (+2)
+TEST(GildedRoseTest, AgedBrieIncreaseDoubleAfterSellIn) {
+  std::vector<Item> items = {Item("Aged Brie", 0, 0)};
+  GildedRose app(items);
+  app.updateQuality();
+
+  EXPECT_EQ(-1, items[0].sellIn);
+  EXPECT_EQ(2, items[0].quality);
+}

@@ -7,11 +7,6 @@
       "tests": 5,
       "testsuite": [
         {
-          "name": "Foo",
-          "file": "C:\\DEV_BR\\GildedRose_06\\cpp\\test\\GildedRoseTest.cpp",
-          "line": 4
-        },
-        {
           "name": "NonameQualityZeroNoDecrease",
           "file": "C:\\DEV_BR\\GildedRose_06\\cpp\\test\\GildedRoseTest.cpp",
           "line": 12
@@ -30,6 +25,11 @@
           "name": "SulfurasNoChangeEvenAfterSellIn",
           "file": "C:\\DEV_BR\\GildedRose_06\\cpp\\test\\GildedRoseTest.cpp",
           "line": 42
+        },
+        {
+          "name": "AgedBrieIncreaseDoubleAfterSellIn",
+          "file": "C:\\DEV_BR\\GildedRose_06\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 52
         }
       ]
     }

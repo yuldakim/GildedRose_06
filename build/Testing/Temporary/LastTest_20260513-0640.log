@@ -1,19 +1,19 @@
-Start testing: May 13 16:42 대한민국 표준시
+Start testing: May 13 16:46 대한민국 표준시
 ----------------------------------------------------------
-5/5 Testing: GildedRoseTest.SulfurasNoChangeEvenAfterSellIn
-5/5 Test: GildedRoseTest.SulfurasNoChangeEvenAfterSellIn
-Command: "C:/DEV_BR/GildedRose_06/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.SulfurasNoChangeEvenAfterSellIn" "--gtest_also_run_disabled_tests"
+5/5 Testing: GildedRoseTest.AgedBrieIncreaseDoubleAfterSellIn
+5/5 Test: GildedRoseTest.AgedBrieIncreaseDoubleAfterSellIn
+Command: "C:/DEV_BR/GildedRose_06/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.AgedBrieIncreaseDoubleAfterSellIn" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV_BR/GildedRose_06/build
-"GildedRoseTest.SulfurasNoChangeEvenAfterSellIn" start time: May 13 16:42 대한민국 표준시
+"GildedRoseTest.AgedBrieIncreaseDoubleAfterSellIn" start time: May 13 16:46 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:\DEV_BR\GildedRose_06\build\_deps\googletest-src\googletest\src\gtest_main.cc
-Note: Google Test filter = GildedRoseTest.SulfurasNoChangeEvenAfterSellIn
+Note: Google Test filter = GildedRoseTest.AgedBrieIncreaseDoubleAfterSellIn
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
 [----------] 1 test from GildedRoseTest
-[ RUN      ] GildedRoseTest.SulfurasNoChangeEvenAfterSellIn
-[       OK ] GildedRoseTest.SulfurasNoChangeEvenAfterSellIn (0 ms)
+[ RUN      ] GildedRoseTest.AgedBrieIncreaseDoubleAfterSellIn
+[       OK ] GildedRoseTest.AgedBrieIncreaseDoubleAfterSellIn (0 ms)
 [----------] 1 test from GildedRoseTest (0 ms total)
 
 [----------] Global test environment tear-down
@@ -23,8 +23,8 @@ Note: Google Test filter = GildedRoseTest.SulfurasNoChangeEvenAfterSellIn
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"GildedRoseTest.SulfurasNoChangeEvenAfterSellIn" end time: May 13 16:42 대한민국 표준시
-"GildedRoseTest.SulfurasNoChangeEvenAfterSellIn" time elapsed: 00:00:00
+"GildedRoseTest.AgedBrieIncreaseDoubleAfterSellIn" end time: May 13 16:46 대한민국 표준시
+"GildedRoseTest.AgedBrieIncreaseDoubleAfterSellIn" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 13 16:42 대한민국 표준시
+End testing: May 13 16:46 대한민국 표준시
