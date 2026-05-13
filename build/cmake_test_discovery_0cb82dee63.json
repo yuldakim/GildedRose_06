@@ -1,10 +1,10 @@
 {
-  "tests": 7,
+  "tests": 8,
   "name": "AllTests",
   "testsuites": [
     {
       "name": "GildedRoseTest",
-      "tests": 7,
+      "tests": 8,
       "testsuite": [
         {
           "name": "NonameQualityZeroNoDecrease",
@@ -40,6 +40,11 @@
           "name": "AgedBrieQualityMax51",
           "file": "C:\\DEV_BR\\GildedRose_06\\cpp\\test\\GildedRoseTest.cpp",
           "line": 72
+        },
+        {
+          "name": "BackstagePassIncreaseNormalBefore10Days",
+          "file": "C:\\DEV_BR\\GildedRose_06\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 82
         }
       ]
     }

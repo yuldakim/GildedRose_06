@@ -25,26 +25,20 @@
 	ProcessorClockFrequency="2801.000000"
 	>
 	<Testing>
-		<StartDateTime>May 13 16:49 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
-		<StartTestTime>1778658586</StartTestTime>
+		<StartDateTime>May 13 16:56 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
+		<StartTestTime>1778658965</StartTestTime>
 		<TestList>
-			<Test>./GildedRoseTest.AgedBrieQualityMax51</Test>
+			<Test>./GildedRoseTest.BackstagePassIncreaseNormalBefore10Days</Test>
 		</TestList>
-		<Test Status="failed">
-			<Name>GildedRoseTest.AgedBrieQualityMax51</Name>
+		<Test Status="passed">
+			<Name>GildedRoseTest.BackstagePassIncreaseNormalBefore10Days</Name>
 			<Path>.</Path>
-			<FullName>./GildedRoseTest.AgedBrieQualityMax51</FullName>
-			<FullCommandLine>C:\DEV_BR\GildedRose_06\build\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.AgedBrieQualityMax51" "--gtest_also_run_disabled_tests"</FullCommandLine>
-			<StartTestTime>1778658586.413414</StartTestTime>
+			<FullName>./GildedRoseTest.BackstagePassIncreaseNormalBefore10Days</FullName>
+			<FullCommandLine>C:\DEV_BR\GildedRose_06\build\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.BackstagePassIncreaseNormalBefore10Days" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<StartTestTime>1778658965.639140</StartTestTime>
 			<Results>
-				<NamedMeasurement type="text/string" name="Exit Code">
-					<Value>Failed</Value>
-				</NamedMeasurement>
-				<NamedMeasurement type="text/string" name="Exit Value">
-					<Value>1</Value>
-				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.020811</Value>
+					<Value>0.036893</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -53,18 +47,18 @@
 					<Value>Completed</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="text/string" name="Command Line">
-					<Value>C:\DEV_BR\GildedRose_06\build\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.AgedBrieQualityMax51" "--gtest_also_run_disabled_tests"</Value>
+					<Value>C:\DEV_BR\GildedRose_06\build\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.BackstagePassIncreaseNormalBefore10Days" "--gtest_also_run_disabled_tests"</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="text/string" name="Environment">
 					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
 				</NamedMeasurement>
 				<Measurement>
-					<Value encoding="base64" compression="gzip">eJyVUU1vwjAMvedX+AjSqMqBbarEAUZBkza0FbYdWlSF1pRIadI1KbB/v/RDjCIhdT7F9svz87NXCMFEAilloteHXS5TeHKCmfsZTr1gwXiMsScVhvZ9sC1MGoQxZipIpEw4alR6oPLoIg2qtHyFJacVRWQpNTqwqCCwNh3YMa4xhzH8DSjr1iTBeJozfC8oZ/rnlZ5GQ+KPz7EBr9E7BF0RlXqbtyqYRov4g3NsYMHllvK6j+LAcilSFAaLelBkV+BLzrYw4oP3sYQqNp1E3/IwyrKgsumKxNSdh0cH5pTxIkfinjKMNMaA3zUtyB3oPSqEA+UFKocAmDkAZulU+fbGaoCkFPm1Z9EemHJgZBOjHuaT5xd31lE99GxIVb+rOzUctNSU90m3A2ik+SCWR9E+762zQk6F1Z5jlnqbrFb1UnaFVVZ71ZrhDjhTpZVb5PLo/NsNQgxR82PtrtbkF8N1CdI=</Value>
+					<Value encoding="base64" compression="gzip">eJydUMtqwzAQvOsr9hgfbJxLD4Ec6iaYUnCD0/ZiGbOx10ZUloIkt/Tv60dI40IgZE872tHszqSdUkI10KJQCw9qo1t4WvHN9qOIUh4LWVGVaktF+MAPXQ95UdHR8kbrRpIj63xrygvIRzh0xaAZlCVLtKMVxCMF3voJ1EI6MrCGvwXDexBh+WkdNrRDa59VaQgtJdq0KCOqtaFluMEfy7L1uXJITxaW4EbtwcKpt51wFLDMP1cOsdQHlNOc1JcwWrWkei45vzv+I19qzm9lGaTvCYyV3+1j+g+vL3drwCKE1nq3nj3RwWmH0mO3JeMIjV/pbzXP/VreYFAF8z29z93jfr/dDFlN3ID9ArMw0nk=</Value>
 				</Measurement>
 			</Results>
 		</Test>
-		<EndDateTime>May 13 16:49 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
-		<EndTestTime>1778658586</EndTestTime>
+		<EndDateTime>May 13 16:56 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
+		<EndTestTime>1778658965</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>
