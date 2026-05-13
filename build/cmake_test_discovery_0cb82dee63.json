@@ -1,10 +1,10 @@
 {
-  "tests": 4,
+  "tests": 5,
   "name": "AllTests",
   "testsuites": [
     {
       "name": "GildedRoseTest",
-      "tests": 4,
+      "tests": 5,
       "testsuite": [
         {
           "name": "Foo",
@@ -25,6 +25,11 @@
           "name": "SulfurasNoChangeAtSellInZero",
           "file": "C:\\DEV_BR\\GildedRose_06\\cpp\\test\\GildedRoseTest.cpp",
           "line": 32
+        },
+        {
+          "name": "SulfurasNoChangeEvenAfterSellIn",
+          "file": "C:\\DEV_BR\\GildedRose_06\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 42
         }
       ]
     }
