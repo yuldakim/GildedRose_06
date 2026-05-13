@@ -1,19 +1,19 @@
-Start testing: May 13 16:59 대한민국 표준시
+Start testing: May 13 17:12 대한민국 표준시
 ----------------------------------------------------------
-8/8 Testing: GildedRoseTest.BackstagePassDropsToZeroAfterConcert
-8/8 Test: GildedRoseTest.BackstagePassDropsToZeroAfterConcert
-Command: "C:/DEV_BR/GildedRose_06/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.BackstagePassDropsToZeroAfterConcert" "--gtest_also_run_disabled_tests"
+9/9 Testing: GildedRoseTest.BackstagePassAbnormalQualityExpiration
+9/9 Test: GildedRoseTest.BackstagePassAbnormalQualityExpiration
+Command: "C:/DEV_BR/GildedRose_06/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.BackstagePassAbnormalQualityExpiration" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV_BR/GildedRose_06/build
-"GildedRoseTest.BackstagePassDropsToZeroAfterConcert" start time: May 13 16:59 대한민국 표준시
+"GildedRoseTest.BackstagePassAbnormalQualityExpiration" start time: May 13 17:12 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:\DEV_BR\GildedRose_06\build\_deps\googletest-src\googletest\src\gtest_main.cc
-Note: Google Test filter = GildedRoseTest.BackstagePassDropsToZeroAfterConcert
+Note: Google Test filter = GildedRoseTest.BackstagePassAbnormalQualityExpiration
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
 [----------] 1 test from GildedRoseTest
-[ RUN      ] GildedRoseTest.BackstagePassDropsToZeroAfterConcert
-[       OK ] GildedRoseTest.BackstagePassDropsToZeroAfterConcert (0 ms)
+[ RUN      ] GildedRoseTest.BackstagePassAbnormalQualityExpiration
+[       OK ] GildedRoseTest.BackstagePassAbnormalQualityExpiration (0 ms)
 [----------] 1 test from GildedRoseTest (0 ms total)
 
 [----------] Global test environment tear-down
@@ -23,8 +23,8 @@ Note: Google Test filter = GildedRoseTest.BackstagePassDropsToZeroAfterConcert
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"GildedRoseTest.BackstagePassDropsToZeroAfterConcert" end time: May 13 16:59 대한민국 표준시
-"GildedRoseTest.BackstagePassDropsToZeroAfterConcert" time elapsed: 00:00:00
+"GildedRoseTest.BackstagePassAbnormalQualityExpiration" end time: May 13 17:12 대한민국 표준시
+"GildedRoseTest.BackstagePassAbnormalQualityExpiration" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 13 16:59 대한민국 표준시
+End testing: May 13 17:12 대한민국 표준시

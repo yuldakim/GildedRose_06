@@ -25,20 +25,20 @@
 	ProcessorClockFrequency="2801.000000"
 	>
 	<Testing>
-		<StartDateTime>May 13 16:59 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
-		<StartTestTime>1778659191</StartTestTime>
+		<StartDateTime>May 13 17:12 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
+		<StartTestTime>1778659966</StartTestTime>
 		<TestList>
-			<Test>./GildedRoseTest.BackstagePassDropsToZeroAfterConcert</Test>
+			<Test>./GildedRoseTest.BackstagePassAbnormalQualityExpiration</Test>
 		</TestList>
 		<Test Status="passed">
-			<Name>GildedRoseTest.BackstagePassDropsToZeroAfterConcert</Name>
+			<Name>GildedRoseTest.BackstagePassAbnormalQualityExpiration</Name>
 			<Path>.</Path>
-			<FullName>./GildedRoseTest.BackstagePassDropsToZeroAfterConcert</FullName>
-			<FullCommandLine>C:\DEV_BR\GildedRose_06\build\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.BackstagePassDropsToZeroAfterConcert" "--gtest_also_run_disabled_tests"</FullCommandLine>
-			<StartTestTime>1778659191.473909</StartTestTime>
+			<FullName>./GildedRoseTest.BackstagePassAbnormalQualityExpiration</FullName>
+			<FullCommandLine>C:\DEV_BR\GildedRose_06\build\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.BackstagePassAbnormalQualityExpiration" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<StartTestTime>1778659966.367293</StartTestTime>
 			<Results>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.018339</Value>
+					<Value>0.021349</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -47,18 +47,18 @@
 					<Value>Completed</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="text/string" name="Command Line">
-					<Value>C:\DEV_BR\GildedRose_06\build\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.BackstagePassDropsToZeroAfterConcert" "--gtest_also_run_disabled_tests"</Value>
+					<Value>C:\DEV_BR\GildedRose_06\build\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.BackstagePassAbnormalQualityExpiration" "--gtest_also_run_disabled_tests"</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="text/string" name="Environment">
 					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
 				</NamedMeasurement>
 				<Measurement>
-					<Value encoding="base64" compression="gzip">eJydULtuwzAM3PUVHOPBRrp0CJAhL3gokAZO2qGWYSg2bQi1RUOi29+vH0EaFygQhBNPPB2PF7XGaFNCrbSZeVBYqmGzkNvde7qOZKirHPOIHKbzZ3luOyjTHBsnS6KyQkbHvrPZDZQD7Lu01wyyTOyJcQHhQIFTN4FCV4wWlvC7oH8P1ir7dKxKPCjntpYad6IPtLQqOvqGTIaWRby8VgLRxf8T8CDc+7/0rtWMgYj9ayUQVnRW1ThH86UtmRpNx0X22+YP+VZzalTEEL3tYajksSPGz/D68pgAzOZQO+9ewyMdmFhVnrgvE0Zl/Zy+zTTx/5IGq0ww3dMdeVgdj7ttn9LIDcQPQJ3Qcg==</Value>
+					<Value encoding="base64" compression="gzip">eJydUMtuwjAQvPsr9kgOieiFAxIHKFEOlSgNbS9xFDnJElk4dmRv+vj75oEoICEh9rTjHc/uTNxqLXUFtZB64sHemhqe53wdfmarmEdSlVjGxmE2nfG87SDPSmwcr4ypFBI68p0tziAfYN9lvWZQFGxjCOcQDRR47yawl4rQwgL+F/TvwUoUB0eiwq1wbplrY2uh3lqhJP2GP420gqTRLFmcKoX46OAJaJDuHRx710rCgCX+qVKIlMmFGueov6Q1ukbdcZH8trkin2tensoSiD82MFT6qI3xO7y+PCoBkynUzrv36JEOZEgoj92XC6Gwfmm+r1K/lTZYoYPLPZ3N7XK3C9d9UiM3YH+tf9OZ====</Value>
 				</Measurement>
 			</Results>
 		</Test>
-		<EndDateTime>May 13 16:59 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
-		<EndTestTime>1778659191</EndTestTime>
+		<EndDateTime>May 13 17:12 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
+		<EndTestTime>1778659966</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

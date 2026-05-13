@@ -79,10 +79,21 @@ TEST(GildedRoseTest, BackstagePassIncreaseNormalBefore10Days) {
   EXPECT_EQ(1, items[0].quality);
 }
 
-// 8. Backstage Pass: 공연 지난 날 → 품질 = 0
+// 8. Backstage Pass: 유효기간 지난 날 → 품질 = 0
 TEST(GildedRoseTest, BackstagePassNormalExpiration) {
   std::vector<Item> items = {
       Item("Backstage passes to a TAFKAL80ETC concert", 0, 10)};
+  GildedRose app(items);
+  app.updateQuality();
+
+  EXPECT_EQ(-1, items[0].sellIn);
+  EXPECT_EQ(0, items[0].quality);
+}
+
+// 9. Backstage Pass: 품질이 초과였지만 유효기간 지나서 0 처리
+TEST(GildedRoseTest, BackstagePassAbnormalQualityExpiration) {
+  std::vector<Item> items = {
+      Item("Backstage passes to a TAFKAL80ETC concert", 0, 51)};
   GildedRose app(items);
   app.updateQuality();
 
