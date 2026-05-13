@@ -86,22 +86,40 @@ CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\DEV_BR\GildedRose_06\cpp\test\GildedRoseTest.cpp -o CMakeFiles\gilded_rose_test.dir\test\GildedRoseTest.cpp.s
 
+CMakeFiles/gilded_rose_test.dir/test/ApprovalTest.cpp.obj: CMakeFiles/gilded_rose_test.dir/flags.make
+CMakeFiles/gilded_rose_test.dir/test/ApprovalTest.cpp.obj: CMakeFiles/gilded_rose_test.dir/includes_CXX.rsp
+CMakeFiles/gilded_rose_test.dir/test/ApprovalTest.cpp.obj: C:/DEV_BR/GildedRose_06/cpp/test/ApprovalTest.cpp
+CMakeFiles/gilded_rose_test.dir/test/ApprovalTest.cpp.obj: CMakeFiles/gilded_rose_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\DEV_BR\GildedRose_06\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gilded_rose_test.dir/test/ApprovalTest.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gilded_rose_test.dir/test/ApprovalTest.cpp.obj -MF CMakeFiles\gilded_rose_test.dir\test\ApprovalTest.cpp.obj.d -o CMakeFiles\gilded_rose_test.dir\test\ApprovalTest.cpp.obj -c C:\DEV_BR\GildedRose_06\cpp\test\ApprovalTest.cpp
+
+CMakeFiles/gilded_rose_test.dir/test/ApprovalTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gilded_rose_test.dir/test/ApprovalTest.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\DEV_BR\GildedRose_06\cpp\test\ApprovalTest.cpp > CMakeFiles\gilded_rose_test.dir\test\ApprovalTest.cpp.i
+
+CMakeFiles/gilded_rose_test.dir/test/ApprovalTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gilded_rose_test.dir/test/ApprovalTest.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\DEV_BR\GildedRose_06\cpp\test\ApprovalTest.cpp -o CMakeFiles\gilded_rose_test.dir\test\ApprovalTest.cpp.s
+
 # Object files for target gilded_rose_test
 gilded_rose_test_OBJECTS = \
-"CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.obj"
+"CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.obj" \
+"CMakeFiles/gilded_rose_test.dir/test/ApprovalTest.cpp.obj"
 
 # External object files for target gilded_rose_test
 gilded_rose_test_EXTERNAL_OBJECTS =
 
 gilded_rose_test.exe: CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.obj
+gilded_rose_test.exe: CMakeFiles/gilded_rose_test.dir/test/ApprovalTest.cpp.obj
 gilded_rose_test.exe: CMakeFiles/gilded_rose_test.dir/build.make
 gilded_rose_test.exe: libgilded_rose.a
 gilded_rose_test.exe: lib/libgtest_main.a
+gilded_rose_test.exe: _deps/approvaltests-build/ApprovalTests/libApprovalTests.a
 gilded_rose_test.exe: lib/libgtest.a
 gilded_rose_test.exe: CMakeFiles/gilded_rose_test.dir/linkLibs.rsp
 gilded_rose_test.exe: CMakeFiles/gilded_rose_test.dir/objects1.rsp
 gilded_rose_test.exe: CMakeFiles/gilded_rose_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\DEV_BR\GildedRose_06\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable gilded_rose_test.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\DEV_BR\GildedRose_06\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable gilded_rose_test.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\gilded_rose_test.dir\link.txt --verbose=$(VERBOSE)
 	C:\mingw64\bin\cmake.exe -D TEST_TARGET=gilded_rose_test -D TEST_EXECUTABLE=C:/DEV_BR/GildedRose_06/build/gilded_rose_test.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=C:/DEV_BR/GildedRose_06/build -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=gilded_rose_test_TESTS -D CTEST_FILE=C:/DEV_BR/GildedRose_06/build/gilded_rose_test[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P C:/mingw64/share/cmake-4.3/Modules/GoogleTestAddTests.cmake
 

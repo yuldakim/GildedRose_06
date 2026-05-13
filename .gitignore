@@ -1,0 +1,7 @@
+# 빌드 결과물 및 라이브러리 소스 제외
+build/
+.cache/
+bin/
+
+# ApprovalTests 결과물
+*.received.txt

@@ -1,11 +1,16 @@
 {
-  "tests": 10,
+  "tests": 11,
   "name": "AllTests",
   "testsuites": [
     {
       "name": "GildedRoseTest",
-      "tests": 10,
+      "tests": 11,
       "testsuite": [
+        {
+          "name": "UpdateQualityApproval",
+          "file": "C:\\DEV_BR\\GildedRose_06\\cpp\\test\\ApprovalTest.cpp",
+          "line": 11
+        },
         {
           "name": "NonameQualityZeroNoDecrease",
           "file": "C:\\DEV_BR\\GildedRose_06\\cpp\\test\\GildedRoseTest.cpp",

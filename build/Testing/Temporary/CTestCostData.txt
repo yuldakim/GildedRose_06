@@ -1,13 +1,15 @@
-GildedRoseTest.NonameQualityZeroNoDecrease 1 0.0199015
-GildedRoseTest.NonameQualityDecreaseDoubleAfterSellIn 1 0.0228002
-GildedRoseTest.SulfurasNoChangeAtSellInZero 1 0.0189912
-GildedRoseTest.SulfurasNoChangeEvenAfterSellIn 1 0.0216471
-GildedRoseTest.AgedBrieIncreaseDoubleAfterSellIn 1 0.0179443
-GildedRoseTest.AgedBrieQualityMax50 1 0.019973
+GildedRoseTest.NonameQualityZeroNoDecrease 3 0.00366563
+GildedRoseTest.NonameQualityDecreaseDoubleAfterSellIn 3 0.00405333
+GildedRoseTest.SulfurasNoChangeAtSellInZero 3 0.00412983
+GildedRoseTest.SulfurasNoChangeEvenAfterSellIn 3 0.00359527
+GildedRoseTest.AgedBrieIncreaseDoubleAfterSellIn 3 0.00358527
+GildedRoseTest.AgedBrieQualityMax50 3 0.00405293
 GildedRoseTest.AgedBrieQualityMax51 0 0
-GildedRoseTest.BackstagePassIncreaseNormalBefore10Days 1 0.0368926
+GildedRoseTest.BackstagePassIncreaseNormalBefore10Days 3 0.0033111
 GildedRoseTest.BackstagePassDropsToZeroAfterConcert 1 0.0183386
-GildedRoseTest.BackstagePassNormalExpiration 1 0.0219993
-GildedRoseTest.BackstagePassAbnormalQualityExpiration 1 0.0213488
-GildedRoseTest.ShouldBeNothingWhenNoItem 1 0.0182504
+GildedRoseTest.BackstagePassNormalExpiration 3 0.00383323
+GildedRoseTest.BackstagePassAbnormalQualityExpiration 3 0.0040061
+GildedRoseTest.ShouldBeNothingWhenNoItem 3 0.0036662
+GildedRoseTest.UpdateQualityApproval 0 0
 ---
+GildedRoseTest.UpdateQualityApproval
