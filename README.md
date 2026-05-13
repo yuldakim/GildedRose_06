@@ -58,4 +58,9 @@ ctest --test-dir build
  4~5. 유통기한 감소 위치 변경 및 아이템별 로직 완전분리
  6. 반복문 내 조건 단순화 및 특수 아이템 관련 동작 함수분리
 
-- Golden master Test
+- Approval (Golden master) Test 완료
+ 1. cmake 텍스트 파일 수정
+ 2. approval Test 신규생성 (테스트 조건 임의 입력)
+ 3. Approval Test 진행
+ 4. Golden master 파일 생성 후 Received 파일 approved 파일로 내용 옮겨적은 후 다시 테스트
+ 5. Received 파일 삭제 확인
