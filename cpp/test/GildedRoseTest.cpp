@@ -100,3 +100,13 @@ TEST(GildedRoseTest, BackstagePassAbnormalQualityExpiration) {
   EXPECT_EQ(-1, items[0].sellIn);
   EXPECT_EQ(0, items[0].quality);
 }
+
+// 10. 빈 배열 처리: 아이템이 없을 때 에러 없이 동작
+TEST(GildedRoseTest, ShouldBeNothingWhenNoItem) {
+  std::vector<Item> items = {};
+  GildedRose app(items);
+
+  // 실행 시 크래시가 나지 않아야 함
+  EXPECT_NO_THROW(app.updateQuality());
+  EXPECT_EQ(0, items.size());
+}

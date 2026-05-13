@@ -9,4 +9,5 @@ GildedRoseTest.BackstagePassIncreaseNormalBefore10Days 1 0.0368926
 GildedRoseTest.BackstagePassDropsToZeroAfterConcert 1 0.0183386
 GildedRoseTest.BackstagePassNormalExpiration 1 0.0219993
 GildedRoseTest.BackstagePassAbnormalQualityExpiration 1 0.0213488
+GildedRoseTest.ShouldBeNothingWhenNoItem 1 0.0182504
 ---

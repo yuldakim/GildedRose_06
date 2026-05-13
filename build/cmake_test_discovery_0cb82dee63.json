@@ -1,10 +1,10 @@
 {
-  "tests": 9,
+  "tests": 10,
   "name": "AllTests",
   "testsuites": [
     {
       "name": "GildedRoseTest",
-      "tests": 9,
+      "tests": 10,
       "testsuite": [
         {
           "name": "NonameQualityZeroNoDecrease",
@@ -50,6 +50,11 @@
           "name": "BackstagePassAbnormalQualityExpiration",
           "file": "C:\\DEV_BR\\GildedRose_06\\cpp\\test\\GildedRoseTest.cpp",
           "line": 94
+        },
+        {
+          "name": "ShouldBeNothingWhenNoItem",
+          "file": "C:\\DEV_BR\\GildedRose_06\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 105
         }
       ]
     }
