@@ -11,4 +11,7 @@ GildedRoseTest.BackstagePassNormalExpiration 4 0.0058243
 GildedRoseTest.BackstagePassAbnormalQualityExpiration 4 0.00622978
 GildedRoseTest.ShouldBeNothingWhenNoItem 4 0.0055006
 GildedRoseTest.UpdateQualityApproval 1 0.0207357
+FoodBeverageTest.DegradesTwiceAsNormal 1 0.0187574
+FoodBeverageTest.DegradesFourTimesAfterSellIn 1 0.0189758
+FoodBeverageTest.QualityNeverBelowZero 1 0.0204652
 ---

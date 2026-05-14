@@ -118,6 +118,7 @@ CMakeFiles/gilded_rose_test.dir/test/ApprovalTest.cpp.obj
  C:/DEV_BR/GildedRose_06/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-string.h
  C:/DEV_BR/GildedRose_06/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h
  C:/DEV_BR/GildedRose_06/cpp/include/GildedRose.h
+ C:/DEV_BR/GildedRose_06/cpp/include/GildedRoseItem.h
  C:/DEV_BR/GildedRose_06/cpp/include/Item.h
  C:/mingw64/include/c++/15.2.0/algorithm
  C:/mingw64/include/c++/15.2.0/any
@@ -403,6 +404,7 @@ CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.obj
  C:/DEV_BR/GildedRose_06/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-string.h
  C:/DEV_BR/GildedRose_06/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h
  C:/DEV_BR/GildedRose_06/cpp/include/GildedRose.h
+ C:/DEV_BR/GildedRose_06/cpp/include/GildedRoseItem.h
  C:/DEV_BR/GildedRose_06/cpp/include/Item.h
  C:/mingw64/include/c++/15.2.0/any
  C:/mingw64/include/c++/15.2.0/array

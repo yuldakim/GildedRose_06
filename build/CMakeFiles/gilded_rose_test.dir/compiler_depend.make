@@ -117,6 +117,7 @@ CMakeFiles/gilded_rose_test.dir/test/ApprovalTest.cpp.obj: C:/DEV_BR/GildedRose_
   _deps/googletest-src/googletest/include/gtest/internal/gtest-string.h \
   _deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
   C:/DEV_BR/GildedRose_06/cpp/include/GildedRose.h \
+  C:/DEV_BR/GildedRose_06/cpp/include/GildedRoseItem.h \
   C:/DEV_BR/GildedRose_06/cpp/include/Item.h \
   C:/mingw64/include/c++/15.2.0/algorithm \
   C:/mingw64/include/c++/15.2.0/any \
@@ -401,6 +402,7 @@ CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.obj: C:/DEV_BR/GildedRos
   _deps/googletest-src/googletest/include/gtest/internal/gtest-string.h \
   _deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
   C:/DEV_BR/GildedRose_06/cpp/include/GildedRose.h \
+  C:/DEV_BR/GildedRose_06/cpp/include/GildedRoseItem.h \
   C:/DEV_BR/GildedRose_06/cpp/include/Item.h \
   C:/mingw64/include/c++/15.2.0/any \
   C:/mingw64/include/c++/15.2.0/array \
@@ -763,11 +765,7 @@ C:/mingw64/include/c++/15.2.0/ext/alloc_traits.h:
 
 C:/mingw64/include/c++/15.2.0/exception:
 
-_deps/approvaltests-src/ApprovalTests/utilities/ExceptionCollector.h:
-
-_deps/approvaltests-src/ApprovalTests/reporters/DefaultReporter.h:
-
-C:/mingw64/include/c++/15.2.0/chrono:
+C:/mingw64/include/c++/15.2.0/debug/assertions.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
 
@@ -778,6 +776,8 @@ C:/mingw64/include/c++/15.2.0/bits/monostate.h:
 C:/mingw64/include/c++/15.2.0/bit:
 
 C:/mingw64/include/c++/15.2.0/bits/locale_facets.tcc:
+
+C:/DEV_BR/GildedRose_06/cpp/include/GildedRoseItem.h:
 
 C:/mingw64/include/c++/15.2.0/debug/debug.h:
 
@@ -828,6 +828,12 @@ C:/mingw64/include/c++/15.2.0/bits/ios_base.h:
 C:/mingw64/include/c++/15.2.0/bits/shared_ptr_atomic.h:
 
 C:/mingw64/include/c++/15.2.0/bits/memory_resource.h:
+
+_deps/approvaltests-src/ApprovalTests/utilities/ExceptionCollector.h:
+
+_deps/approvaltests-src/ApprovalTests/reporters/DefaultReporter.h:
+
+C:/mingw64/include/c++/15.2.0/chrono:
 
 _deps/approvaltests-src/ApprovalTests/utilities/EmptyFileCreatorFactory.h:
 
@@ -986,8 +992,6 @@ _deps/approvaltests-src/ApprovalTests/integrations/boost_test/BoostTestApprovals
 C:/mingw64/x86_64-w64-mingw32/include/malloc.h:
 
 C:/mingw64/include/c++/15.2.0/bits/stl_algobase.h:
-
-C:/mingw64/include/c++/15.2.0/debug/assertions.h:
 
 _deps/approvaltests-src/ApprovalTests/comparators/TextFileComparator.h:
 

@@ -19,46 +19,17 @@
 	ProcessorCacheSize="0"
 	NumberOfLogicalCPU="8"
 	NumberOfPhysicalCPU="4"
-	TotalVirtualMemory="5120"
+	TotalVirtualMemory="8217"
 	TotalPhysicalMemory="16060"
 	LogicalProcessorsPerPhysical="2"
 	ProcessorClockFrequency="2801.000000"
 	>
 	<Testing>
-		<StartDateTime>May 14 00:35 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
-		<StartTestTime>1778686557</StartTestTime>
-		<TestList>
-			<Test>./GildedRoseTest.UpdateQualityApproval</Test>
-		</TestList>
-		<Test Status="passed">
-			<Name>GildedRoseTest.UpdateQualityApproval</Name>
-			<Path>.</Path>
-			<FullName>./GildedRoseTest.UpdateQualityApproval</FullName>
-			<FullCommandLine>C:\DEV_BR\GildedRose_06\build\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.UpdateQualityApproval" "--gtest_also_run_disabled_tests"</FullCommandLine>
-			<StartTestTime>1778686557.457631</StartTestTime>
-			<Results>
-				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.020736</Value>
-				</NamedMeasurement>
-				<NamedMeasurement type="numeric/double" name="Processors">
-					<Value>1</Value>
-				</NamedMeasurement>
-				<NamedMeasurement type="text/string" name="Completion Status">
-					<Value>Completed</Value>
-				</NamedMeasurement>
-				<NamedMeasurement type="text/string" name="Command Line">
-					<Value>C:\DEV_BR\GildedRose_06\build\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.UpdateQualityApproval" "--gtest_also_run_disabled_tests"</Value>
-				</NamedMeasurement>
-				<NamedMeasurement type="text/string" name="Environment">
-					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
-				</NamedMeasurement>
-				<Measurement>
-					<Value encoding="base64" compression="gzip">eJyNkL0KwkAQhPt7iim1SMBKESwEJYXgT6JVSHGSVQ4ut+Gyifj2RoNiBCFTHXvf7s7OloXmiJivlnCkSnAxVshjgcjYnPKYK3rWw1OZa6FDra2R+7IsPTfaqnTxUYa4ds64KyaQ1yTPxftd1UYoVGnwUYbI8lnb7p9cYzy7glzLkgR1+QN/z+w7Uyni0xYvZQNddzR2m4EdGE1RVOOhljCatTiERduxGna1kPZBzjfXz/RflvDahf097VX7ZZKsV88cOjZUD3r/mis=</Value>
-				</Measurement>
-			</Results>
-		</Test>
-		<EndDateTime>May 14 00:35 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
-		<EndTestTime>1778686557</EndTestTime>
+		<StartDateTime>May 14 22:39 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
+		<StartTestTime>1778765943</StartTestTime>
+		<TestList/>
+		<EndDateTime>May 14 22:39 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
+		<EndTestTime>1778765943</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

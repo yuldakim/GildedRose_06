@@ -367,4 +367,5 @@ CMakeFiles/gilded_rose_test.dir/test/ApprovalTest.cpp.obj: \
  C:/DEV_BR/GildedRose_06/build/_deps/approvaltests-src/ApprovalTests/utilities/FileUtilsSystemSpecific.h \
  C:/DEV_BR/GildedRose_06/build/_deps/approvaltests-src/ApprovalTests/utilities/Grid.h \
  C:/DEV_BR/GildedRose_06/cpp/include/GildedRose.h \
+ C:/DEV_BR/GildedRose_06/cpp/include/GildedRoseItem.h \
  C:/DEV_BR/GildedRose_06/cpp/include/Item.h
