@@ -64,3 +64,7 @@ ctest --test-dir build
  3. Approval Test 진행
  4. Golden master 파일 생성 후 Received 파일 approved 파일로 내용 옮겨적은 후 다시 테스트
  5. Received 파일 삭제 확인
+ 6. PDF 참고하여 빠진 부분이나 추가 수정할 부분 리펙토링 진행
+ 7. F&B 아이템 추가
+ 8. TestCode 추가
+ 9. 테스트완료
