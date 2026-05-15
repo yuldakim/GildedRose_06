@@ -16,7 +16,10 @@ TEST(GildedRoseTest, UpdateQualityApproval) {
       {"Aged Brie", 0, 50},
       {"Backstage passes to a TAFKAL80ETC concert", 15, 0},
       {"Backstage passes to a TAFKAL80ETC concert", 0, 0},
-      {"Backstage passes to a TAFKAL80ETC concert", 0, 51}};
+      {"Backstage passes to a TAFKAL80ETC concert", 0, 51},
+      {"[F&B] Bread", 5, 20},
+      {"[F&B] Milk", 0, 20},
+      {"[F&B] Water", 0, 1}};
 
   GildedRose app(items);
   app.updateQuality();

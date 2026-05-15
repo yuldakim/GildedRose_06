@@ -1,3 +1,29 @@
-Start testing: May 14 22:39 대한민국 표준시
+Start testing: May 15 08:57 대한민국 표준시
 ----------------------------------------------------------
-End testing: May 14 22:39 대한민국 표준시
+1/14 Testing: GildedRoseTest.UpdateQualityApproval
+1/14 Test: GildedRoseTest.UpdateQualityApproval
+Command: "C:/DEV_BR/GildedRose_06/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.UpdateQualityApproval" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV_BR/GildedRose_06/build
+"GildedRoseTest.UpdateQualityApproval" start time: May 15 08:57 대한민국 표준시
+Output:
+----------------------------------------------------------
+Note: Google Test filter = GildedRoseTest.UpdateQualityApproval
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GildedRoseTest
+[ RUN      ] GildedRoseTest.UpdateQualityApproval
+[       OK ] GildedRoseTest.UpdateQualityApproval (10 ms)
+[----------] 1 test from GildedRoseTest (11 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (11 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"GildedRoseTest.UpdateQualityApproval" end time: May 15 08:57 대한민국 표준시
+"GildedRoseTest.UpdateQualityApproval" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 15 08:57 대한민국 표준시

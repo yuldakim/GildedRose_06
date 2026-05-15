@@ -67,4 +67,5 @@ ctest --test-dir build
  6. PDF 참고하여 빠진 부분이나 추가 수정할 부분 리펙토링 진행
  7. F&B 아이템 추가
  8. TestCode 추가
- 9. 테스트완료
+ 9. 단위테스트완료
+ 10. Approval Test 완료 - Golden Master File Upload
