@@ -18,8 +18,15 @@ target_include_directories(gilded_rose PUBLIC include)
 
 # Tests
 enable_testing()
-add_executable(gilded_rose_test test/GildedRoseTest.cpp)
+add_executable(gilded_rose_test
+    test/GildedRoseTest.cpp
+    test/GoldenMasterTest.cpp
+)
 target_link_libraries(gilded_rose_test gilded_rose GTest::gtest_main)
+target_compile_definitions(gilded_rose_test PRIVATE
+    GOLDEN_MASTER_APPROVED_FILE="${CMAKE_CURRENT_SOURCE_DIR}/test/golden-master/texttest-fixture.approved.txt"
+    GOLDEN_MASTER_RECEIVED_FILE="${CMAKE_CURRENT_BINARY_DIR}/texttest-fixture.received.txt"
+)
 
 include(GoogleTest)
 gtest_discover_tests(gilded_rose_test)

@@ -1,0 +1,25 @@
+name: C++ Tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Configure
+        working-directory: cpp
+        run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+
+      - name: Build
+        working-directory: cpp
+        run: cmake --build build --config Release --parallel
+
+      - name: Run tests
+        working-directory: cpp
+        run: ctest --test-dir build --build-config Release --output-on-failure
