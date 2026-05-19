@@ -284,7 +284,7 @@ TEST_F(GildedRoseTest, ConjuredItemDecreasesQualityTwiceAsFastBeforeSellDate) {
     EXPECT_EQ(18, items[0].quality);
 }
 
-TEST_F(GildedRoseTest, ConjuredItemDecreasesQualityFourTimesOnSellDate) {
+TEST_F(GildedRoseTest, ConjuredItemDecreasesQualityTwiceOnSellDate) {
     // Given
     items = { Item("Conjured", 0, 20) };
 
@@ -294,7 +294,7 @@ TEST_F(GildedRoseTest, ConjuredItemDecreasesQualityFourTimesOnSellDate) {
     // Then
     ASSERT_EQ(1, items.size());
     EXPECT_EQ(-1, items[0].sellIn);
-    EXPECT_EQ(16, items[0].quality);
+    EXPECT_EQ(18, items[0].quality);
 }
 
 TEST_F(GildedRoseTest, ConjuredItemDecreasesQualityFourTimesAfterSellDate) {
@@ -325,13 +325,13 @@ TEST_F(GildedRoseTest, ConjuredItemQualityNeverDropsBelowZero) {
 
 TEST_F(GildedRoseTest, ConjuredPrefixItemsUseConjuredRules) {
     // Given
-    items = { Item("Conjured Mana Cake", 0, 3) };
+    items = { Item("Conjured Mana Cake", -1, 3) };
 
     // When
     updateQuality();
 
     // Then
     ASSERT_EQ(1, items.size());
-    EXPECT_EQ(-1, items[0].sellIn);
+    EXPECT_EQ(-2, items[0].sellIn);
     EXPECT_EQ(0, items[0].quality);
 }

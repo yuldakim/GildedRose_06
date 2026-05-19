@@ -41,9 +41,10 @@ void GildedRose::updateQuality() {
             } else {
                 increaseQuality(item, 1);
             }
+        } else if (isConjured(item)) {
+            decreaseQuality(item, item.sellIn < 0 ? 4 : 2);
         } else {
-            const int decreaseAmount = isConjured(item) ? 2 : 1;
-            decreaseQuality(item, item.sellIn <= 0 ? decreaseAmount * 2 : decreaseAmount);
+            decreaseQuality(item, item.sellIn <= 0 ? 2 : 1);
         }
 
         item.sellIn -= 1;
