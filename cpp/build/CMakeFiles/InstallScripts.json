@@ -1,0 +1,13 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/DEV_BR/GildedRose_06/cpp/build/cmake_install.cmake",
+		"C:/DEV_BR/GildedRose_06/cpp/build/_deps/googletest-build/cmake_install.cmake",
+		"C:/DEV_BR/GildedRose_06/cpp/build/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"C:/DEV_BR/GildedRose_06/cpp/build/_deps/googletest-build/googletest/cmake_install.cmake",
+		"C:/DEV_BR/GildedRose_06/cpp/build/_deps/approvaltests-build/cmake_install.cmake",
+		"C:/DEV_BR/GildedRose_06/cpp/build/_deps/approvaltests-build/ApprovalTests/cmake_install.cmake",
+		"C:/DEV_BR/GildedRose_06/cpp/build/_deps/approvaltests-build/third_party/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
