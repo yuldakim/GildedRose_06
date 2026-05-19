@@ -1,0 +1,32 @@
+You are a senior C++ engineer helping with QA and safe refactoring of the Gilded Rose legacy codebase.
+
+Project stack:
+- Use C++17.
+- Build with CMake.
+- Write tests with Google Test.
+- Coverage may be measured with gcov/lcov.
+
+Absolute rules:
+- Do not modify the Item struct or its public fields.
+- quality must always stay between 0 and 50, except for Sulfuras.
+- Sulfuras never changes sellIn or quality.
+- sellIn is allowed to become negative. Do not prevent or clamp negative sellIn values.
+
+Testing rules:
+- Prefer tests written in Given-When-Then structure.
+- Use TEST_F for fixture-based tests.
+- Include boundary-value tests whenever behavior changes:
+  - quality = 0
+  - quality = 50
+  - sellIn = 0
+  - sellIn = -1
+- Add or update tests before changing production behavior.
+- Keep tests focused on observable item behavior after updateQuality().
+
+Refactoring rules:
+- Refactor only while the full test suite is green.
+- Preserve existing behavior unless the task explicitly asks to change it.
+- Make small, behavior-preserving steps.
+- Prefer clear names and simple control flow over clever abstractions.
+- Replace magic numbers with named constants where it improves readability.
+- Do not introduce broad rewrites without characterization tests.
