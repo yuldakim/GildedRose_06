@@ -35,6 +35,14 @@ add_executable(gilded_rose_test
     test/GildedRoseTest.cpp 
     test/ApprovalTest.cpp
 )
+
+target_compile_options(gilded_rose PRIVATE --coverage)
+target_link_options(gilded_rose PUBLIC --coverage)
+
+target_compile_options(gilded_rose_test PRIVATE --coverage)
+target_link_options(gilded_rose_test PUBLIC --coverage)
+
+
 target_link_libraries(gilded_rose_test 
     gilded_rose 
     GTest::gtest_main 
